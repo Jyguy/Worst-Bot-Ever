@@ -1,5 +1,6 @@
 get = {
-  discord: require
+  discord: require,
+  fixpre: "!"
 }
 require = null;
 hi_lol = String
@@ -34,5 +35,26 @@ var disscord
 
   kek.on('ready', () => console.log(bot.hahahahhaa.user.username))
 
-bot['hahahahhaa'].login('Njg4OTA4NDAyMTQ3MzI4MDE3.Xn0rRw.wrTK38LlOJHMzoFC4CSsR_wBguM')
+  bot.hahahahhaa.on('message', async function({ author: aufor, content: contint, member: membur, channel: chanil }) {
+  if (aufor.bot) return;    if (!new RegExp('^' + get.fixpre).test(contint)) return
+
+  if (chanil.type === 'dm') {
+  }
+  else {
+
+
+    switch(contint.split(/ +/)[0].slice(get.fixpre.length)) {
+      case "hello":
+        chanil.send('you suck')
+        break
+      default:
+        chanil.send("unknwon comand")
+        break
+    }
+    
+  }
+  }
+  )
+
+bot['hahahahhaa'].login('asd')
  }
