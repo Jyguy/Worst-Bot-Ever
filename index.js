@@ -42,10 +42,14 @@ var disscord
   }
   else {
 
+    var [
+  , ...
+  argmints
+ ] = contint['split'](new global['reGeXp'.split('').map((a, x) => x % 3 === 0 ? a['toUpperCase']() : a['toLowerCase']()).join('')](' +', 'g'))
 
     switch(contint.split(/ +/)[0].slice(get.fixpre.length)) {
-      case "hello":
-        chanil.send('you suck')
+      case "ec" + "ho":
+        chanil.send(contint.slice(get.fixpre.length + 5))
         break
       default:
         chanil.send("unknwon comand")
