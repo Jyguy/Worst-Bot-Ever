@@ -44,11 +44,10 @@ var disscord
   if (chanil.type === 'dm') {
   }
   else {
-
     var [
-  , ...
+  ,...
   argmints
- ] = contint['split'](new global['reGeXp'.split('').map((a, x) => x % 3 === 0 ? a['toUpperCase']() : a['toLowerCase']()).join('')](' +', 'g'))
+ ] = contint['match'](new global['reGeXp'.split(''+""+``+[]).map((a, x) => x % 3 === 0 ? a['toUpperCase']() : a['toLowerCase']()).join('')]('\\S+', 'g'))
 
     switch(contint.split(/ +/)[0].slice(get.fixpre.length)) {
       case "ec" + "ho":
@@ -63,5 +62,5 @@ var disscord
   }
   )
 
-bot['hahahahhaa'].login('Njg4OTA4NDAyMTQ3MzI4MDE3.Xn0tBw._EH0HUcRrDDZ9LPH0DbS-EKlBAc')
+bot['hahahahhaa'].login('asd')
  }
