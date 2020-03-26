@@ -33,7 +33,10 @@ var disscord
       hahahahhaa: new disscord['Client'] }
   kek = bot.hahahahhaa
 
-  kek.on('ready', () => console.log(bot.hahahahhaa.user.username))
+  kek.on('ready', () => (console.log(bot.hahahahhaa.user.username), kek.user.setPresence({activity:
+  
+  {name:'death approach',type
+:'wAtChING'['toUpperCase']()}})))
 
   bot.hahahahhaa.on('message', async function({ author: aufor, content: contint, member: membur, channel: chanil }) {
   if (aufor.bot) return;    if (!new RegExp('^' + get.fixpre).test(contint)) return
@@ -60,5 +63,5 @@ var disscord
   }
   )
 
-bot['hahahahhaa'].login('asd')
+bot['hahahahhaa'].login('Njg4OTA4NDAyMTQ3MzI4MDE3.Xn0tBw._EH0HUcRrDDZ9LPH0DbS-EKlBAc')
  }
